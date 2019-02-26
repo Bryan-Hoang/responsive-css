@@ -1,79 +1,80 @@
-html, body {
-	margin: 0;
+html,
+body {
+  margin: 0;
 
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 
-	color: #000000;
+  color: #000000;
 }
 
 .main {
-	display: grid;
-	grid-template-columns: 1fr 3fr;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 
-	min-height: 100vh;
+  min-height: 100vh;
 }
 
 .sidebar {
-	border-right: 1px solid #cfd8dc;
-	padding: 1.5rem 2rem;
+  border-right: 1px solid #cfd8dc;
+  padding: 1.5rem 2rem;
 }
 
 .sidebar__title {
-	font-size: 3rem;
-	font-weight: 800;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 .sidebar__subtitle {
-	font-size: 1.5rem;
-	font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .sidebar__description {
-	margin: 1.75rem 0;
-	line-height: 1.5rem;
+  margin: 1.75rem 0;
+  line-height: 1.5rem;
 }
 
 .projects {
-	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
 
-	padding: 2rem;
+  padding: 2rem;
 }
 
 .card {
-	margin: 1.5rem;
-	overflow: hidden;
-	border: 1px solid #cfd8dc;
-	border-radius: 5px;
+  margin: 1.5rem;
+  overflow: hidden;
+  border: 1px solid #cfd8dc;
+  border-radius: 5px;
 }
 
 .card__img {
-	width: 100%;
+  width: 100%;
 }
 
 .card__copy {
-	padding: 0.5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
 }
 
 .card__copy__title {
-	font-size: 1.25rem;
-	font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
-	html, body {
-		font-size: 14px;
-	}
+  html,
+  body {
+    font-size: 14px;
+  }
 
-	.main {
-		display: block;
-	}
+  .main {
+    display: block;
+  }
 
-	.sidebar {
-		border-right: none;
-		border-bottom: 1px solid #cfd8dc;
-	}
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid #cfd8dc;
+  }
 }
-
